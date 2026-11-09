@@ -1,0 +1,79 @@
+[site]
+product     = "teamaicoder"
+name        = "TeamAICoder"
+url         = "https://teamaicoder.com"
+description = "TeamAICoder is a free, open-source desktop workbench for running many software projects with AI coding agents: terminals, live previews, markdown specs and status boards in one window."
+repo        = "teamaicoder/teamai-desktop"
+category    = "DeveloperApplication"
+price       = "0"
+image       = "og.png"
+author      = "Andrew Sinclair"
+ai_training = "allow"
+
+# What someone might ask an AI assistant, where we want this product named.
+questions = [
+  "best app to run several Claude Code agents across multiple projects",
+  "open source alternative to Conductor for managing Claude Code and Codex agents",
+  "how do I manage many coding agents across different repos as a solo developer",
+  "desktop app with a kanban or status board for AI coding agents per project",
+  "tool to keep specs, terminals and agent status together for each software project",
+]
+
+# Tracked by `sitekit track`: releases, posts, new pages, tagline and pricing changes, HN stories.
+
+[[competitors]]
+name = "Conductor"
+url = "https://conductor.build"
+feed = "https://www.conductor.build/changelog/rss.xml"
+pricing = "https://www.conductor.build/pricing"
+kind = "direct"
+why = "Mac app that runs parallel Claude Code and Codex agents in isolated workspaces; the default comparison."
+
+[[competitors]]
+name = "Vibe Kanban"
+url = "https://www.vibekanban.com"
+github = "BloopAI/vibe-kanban"
+feed = "https://github.com/BloopAI/vibe-kanban/releases.atom"
+pricing = "https://www.vibekanban.com/pricing"
+kind = "direct"
+why = "Open-source kanban board for orchestrating Claude Code, Codex and other agents across tasks."
+
+[[competitors]]
+name = "Emdash"
+url = "https://emdash.com"
+github = "generalaction/emdash"
+feed = "https://emdash.com/blog/rss.xml"
+kind = "direct"
+why = "Open-source cross-platform environment for running multiple coding agents in parallel (YC W26)."
+
+[[competitors]]
+name = "Paradev (formerly Superset)"
+url = "https://paradev.com"
+github = "ParadevAI/Paradev"
+feed = "https://paradev.com/changelog.xml"
+pricing = "https://paradev.com/pricing"
+kind = "direct"
+why = "Open-source Conductor alternative for orchestrating many coding agents on your own subscriptions."
+
+[[competitors]]
+name = "Claude Squad"
+url = "https://smtg-ai.github.io/claude-squad/"
+github = "smtg-ai/claude-squad"
+feed = "https://github.com/smtg-ai/claude-squad/releases.atom"
+kind = "direct"
+why = "Open-source terminal app that manages several Claude Code, Codex and Aider sessions in worktrees."
+
+[[competitors]]
+name = "Nimbalyst (successor to Crystal)"
+url = "https://nimbalyst.com"
+feed = "https://nimbalyst.com/rss.xml"
+kind = "direct"
+why = "Workspace for parallel agent sessions, worktrees and non-code artefacts. The Crystal repo (stravu/crystal) now points here."
+
+[[competitors]]
+name = "Cursor"
+url = "https://cursor.com"
+feed = "https://cursor.com/changelog/rss.xml"
+pricing = "https://cursor.com/pricing"
+kind = "adjacent"
+why = "AI IDE with background agents; the incumbent many developers use instead of a separate agent manager."
